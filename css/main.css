@@ -1,6 +1,5 @@
 @import url(/css/layout/hover.main.css);
-@import url(/css/layout/figure.css);
-
+@import url(/css/layout/figure.main.css);
 
 body {
     background-color: rgb(36,41,46);
@@ -14,4 +13,8 @@ body {
 
 .ra-link {
     padding-right: 50px;
+}
+
+.info-container {
+    background-color: rgb(36,41,46);
 }
