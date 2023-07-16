@@ -1,0 +1,17 @@
+@import url(/css/layout/hover.main.css);
+@import url(/css/layout/figure.css);
+
+
+body {
+    background-color: rgb(36,41,46);
+    color: #f8f9fa;
+    text-align: center;
+}
+
+.a {
+    font-family: "SimSun";
+}
+
+.ra-link {
+    padding-right: 50px;
+}
