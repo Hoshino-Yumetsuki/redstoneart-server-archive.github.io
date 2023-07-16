@@ -17,7 +17,7 @@ window.addEventListener('load', function () {
         },
         autoplay: {
             disableOnInteraction: false,
-            delay: 3000,
+            delay: 5000,
         }
     });
 })
