@@ -19,18 +19,29 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(7,14,23,0.4);
+    background-color: rgba(7, 14, 23, 0.4);
     animation-name: fade;
     animation-duration: 3s;
 }
 
 @-webkit-keyframes fade {
-    from {background-color: rgba(7,14,23,0.8)} 
-    to {background-color: rgba(7,14,23,0.4)}
+    from {
+        background-color: rgba(7, 14, 23, 0.8)
+    }
+
+    to {
+        background-color: rgba(7, 14, 23, 0.4)
+    }
 }
+
 @keyframes fade {
-    from {background-color: rgba(7,14,23,0.8)} 
-    to {background-color: rgba(7,14,23,0.4)}
+    from {
+        background-color: rgba(7, 14, 23, 0.8)
+    }
+
+    to {
+        background-color: rgba(7, 14, 23, 0.4)
+    }
 }
 
 .ra-figure figcaption {
@@ -51,9 +62,10 @@
         right: 15%;
     }
 }
+
 @media (max-width: 523.5px) {
     .ra-figure figcaption {
-        top:20%;
+        top: 20%;
     }
 }
 
@@ -82,11 +94,12 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+
 }
 
 .ra-figure figcaption a:hover {
     color: #f8f9fa;
-    background-color: rgba(175,186,220,0.3);
+    background-color: rgba(175, 186, 220, 0.3);
 }
 
 .ra-figure-img {

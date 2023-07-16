@@ -48,9 +48,19 @@
                 </div>
                 <figcaption>
                     <h1 style="font-weight: bolder; -webkit-text-stroke: 0.5px white;text-align: center;">
-                        <span>Redstone</span>
-                        <span>Art</span>
-                        <span>Server</span>
+                        <div id="typed-strings-1">
+                            <span>We Are RedstoneArt Server</span>
+                        </div>
+                        <span id="typed-1"></span>
+                        <script>
+                            var typed = new Typed('#typed-1', {
+                                stringsElement: '#typed-strings-1',
+                                typeSpeed: 100,
+                                backSpeed: 30,
+                                showCursor: true,
+                                cursorChar: '_',
+                            });
+                        </script>
                     </h1>
                     <p class="subtitle">
                         <i>「看山长水阔，望日月星辰」</i>
