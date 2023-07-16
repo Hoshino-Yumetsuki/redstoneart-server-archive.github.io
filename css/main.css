@@ -18,3 +18,8 @@ body {
 .info-container {
     background-color: rgb(36,41,46);
 }
+
+.ra-title {
+    padding-left: 10px;
+    padding-right: 10px;
+}
