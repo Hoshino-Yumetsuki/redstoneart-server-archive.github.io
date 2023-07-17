@@ -1,0 +1,61 @@
+.about-us {
+    background-color: rgb(36,41,46);
+}
+
+.about-us h2 {
+    font-weight: bolder;
+}
+
+.about-us p {
+    font-family: 'FangSong'
+}
+
+.about-us ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about-us ul li {
+    display: inline-block;
+    margin: 20px;
+    margin-top: -10px;
+}
+.about-us ul li[pos="left"] {
+    width: 30%;
+    text-align: right;
+}
+.about-us ul li img {
+    height: 300px;
+}
+.about-us ul li[pos="right"] {
+    width: 55%;
+    text-align: left;
+}
+.about-us ul li div {
+    font-size: 20px;
+    transform: translate(0%,30%);
+}
+@media (max-width: 800px) {
+    .about-us ul {
+        padding-bottom: 70px;
+    }
+    .about-us ul li {
+        display: block;
+        margin: 0px;
+    }
+    .about-us ul li[pos="left"] {
+        text-align: center;
+        width: 100%;
+    }
+    .about-us ul li img {
+        height: 200px;
+        padding-right: 20px;
+    }
+    .about-us ul li[pos="right"] {
+        text-align: center;
+        width: 100%;
+        margin: -20px;
+    }
+    #more {
+        top: -150px;
+    }
+}
