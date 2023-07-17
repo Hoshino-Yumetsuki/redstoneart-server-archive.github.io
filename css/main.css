@@ -1,6 +1,7 @@
 @import url(/css/layout/hover.main.css);
-@import url(/css/layout/figure.main.css);
+@import url(/css/layout/figure-with-swiper.main.css);
 @import url(/css/layout/pages.main.css);
+@import url(/css/layout/typed.css);
 
 body {
     background-color: rgb(36,41,46);
