@@ -1,0 +1,26 @@
+.title-2 {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    color: rgba(255,255,255,0.9);
+}
+
+.title-2 p[type="time"] {
+    letter-spacing: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "FangSong";
+}
+
+.title-2 p[type="subtitle"] {
+    letter-spacing: 20px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.past-to-now {
+    background-image: url(https://npm.elemecdn.com/redstoneart-server-website-npm-cdn/img/past-to-now/background.jpg);
+    background-color: rgba(7,14,23,0.25);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}

@@ -98,16 +98,47 @@
                 <li pos="right">
                     <div>
                         <h2>关于我们</h2>
-                        <p>欢迎来到RA</p>
-                        <p>我们是1.16.4-.5版本的原版技术生存服务器，我们励志探索MC的本质。</p>
+                        <p>欢迎来到RA，我们是1.16.4-.5版本的原版技术生存服务器，我们励志探索MC的本质。我们完全遵守着以玩家乐趣而发展的准则，希望您能在短暂的休息时间里来到服务器进行一段有趣的旅程。我们对于MC圈子里的全部玩家都持有着一种开放，包容，共享的心态，你可以在这里看到轨道交通横跨千里，可以看到各种超乎想象的红石机器似巨兽一般蛰伏于地面之上，而这里是由不同圈子的人一起建立与生活的世界。“世界上唯一会随着时光的流逝而越变越美好的东西就是回忆。”RA之所谓生存，并不是苟活，所谓温饱，不是奢侈，所谓发展，也不是放纵
+                        </p>
                     </div>
                 </li>
             </ul>
         </div>
+        <!---
         <div class="join-us">
             <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dxmzk0FL9hgPy8KfmGAYOu_IXEJvcwsr&authKey=cOM1TiENeHWSRE1jpyuO1WjLm0o%2BPwGX%2B97CoTsRQpr619AMRGo8nRYa55cD19NZ&noverify=0&group_code=917266941"
                 role="button" class="join-us-button">加入我们（交流群）</a>
+        !--->
+    </div>
+    <p type="space">&nbsp;</p>
+    <div class="past-to-now">
+        <div class="title-2">
+            <p type="subtitle">从无到有，我们经历了</p>
+            <p type="time" id="time">323天13小时50分21秒</p>
+            <script>
+                function runTime() {
+                    var d = new Date(), str = '';
+                    BirthDay = new Date("February 17,2023");
+                    today = new Date();
+                    timeold = (today.getTime() - BirthDay.getTime());
+                    sectimeold = timeold / 1000
+                    secondsold = Math.floor(sectimeold);
+                    msPerDay = 24 * 60 * 60 * 1000
+                    msPerYear = 365 * 24 * 60 * 60 * 1000
+                    e_daysold = timeold / msPerDay
+                    e_yearsold = timeold / msPerYear
+                    daysold = Math.floor(e_daysold);
+                    yearsold = Math.floor(e_yearsold);
+                    //str = yearsold + "年";
+                    str += daysold + "天";
+                    str += d.getHours() + '时';
+                    str += d.getMinutes() + '分';
+                    str += d.getSeconds() + '秒';
+                    return str;
+                }
+                setInterval(function () { $('#time').html(runTime()) }, 1000);
+            </script>
         </div>
-        <p type="space">&nbsp;</p>
+    </div>
     </div>
 </body>
