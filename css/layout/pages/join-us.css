@@ -12,3 +12,16 @@
     background-color: none;
 }
 
+.join-us-title {
+    padding-top: 40px;;
+    padding-bottom: 40px;
+}
+
+.join-us h2 {
+    font-weight: bolder;
+}
+
+.join-us-content {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}

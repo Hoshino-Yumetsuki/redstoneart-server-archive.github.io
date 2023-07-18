@@ -25,3 +25,15 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
+.button-subtitle {
+    margin-top: 15px;
+    margin-left: 4px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.title {
+    padding-top: 30px;
+    /* font-family: "SimSun"; */
+}
