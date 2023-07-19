@@ -29,7 +29,17 @@
     transition-duration: 200ms;
 }
 
-.footer-2 a, .footer-2 p, .footer-2 h1 {
+.footer-2 a {
+    color: rgb(124, 125, 126);
+    text-decoration: none;
+}
+
+.footer-2 p {
+    color: rgb(124, 125, 126);
+    text-decoration: none;
+}
+
+.footer-2 h1 {
     color: rgb(124, 125, 126);
     text-decoration: none;
 }
