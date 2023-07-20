@@ -21,7 +21,9 @@
     width: auto;
     text-align: right;
     float: left;
+    margin-top: -15px;
 }
+
 .about-us ul li img {
     height: 300px;
 }
@@ -56,6 +58,7 @@
         text-align: center;
         width: 100%;
         height: auto;
+        padding-right: 2rem;
     }
     #more {
         top: -150px;
