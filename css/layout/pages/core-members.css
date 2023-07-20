@@ -6,9 +6,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 20px;
-    height: 450px;
+    height: 415px;
     overflow: auto;
 }
+
+
 
 .core-members-content div {
     width: 300px;
@@ -37,20 +39,18 @@
 .core-members h2 {
     font-weight: bolder;
 }
-/* 添加虚拟滚动条样式 */
-.core-members-wrapper::before {
-    content: ""; /* 添加伪元素的内容为空 */
-    position: absolute; /* 定位在父容器上 */
-    top: 0;
-    right: 0;
-    width: 6px; /* 设置滚动条宽度 */
-    background-color: rgba(0, 0, 0, 0.3); /* 设置滚动条颜色 */
-    border-radius: 3px; /* 设置滚动条圆角 */
-    opacity: 0; /* 初始时不显示滚动条 */
-    transition: opacity 0.2s; /* 添加渐变过渡效果 */
-}
+.core-members-wrapper::before {  
+    content: "";
+    position: absolute; 
+    top: 0; 
+    right: 0;   
+    width: 6px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px; 
+    opacity: 0; 
+    transition: opacity 0.2s; 
+} 
 
-/* 鼠标悬停在.core-members-wrapper上时显示滚动条 */
-.core-members-wrapper:hover::before {
-    opacity: 1;
-}
+.core-members-wrapper:hover::before { 
+    opacity: 1; 
+} 
