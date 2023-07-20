@@ -6,7 +6,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 20px;
+    height: 415px;
+    overflow: auto;
 }
+
+
 
 .core-members-content div {
     width: 300px;
@@ -35,3 +39,18 @@
 .core-members h2 {
     font-weight: bolder;
 }
+.core-members-wrapper::before {  
+    content: "";
+    position: absolute; 
+    top: 0; 
+    right: 0;   
+    width: 6px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px; 
+    opacity: 0; 
+    transition: opacity 0.2s; 
+} 
+
+.core-members-wrapper:hover::before { 
+    opacity: 1; 
+} 
