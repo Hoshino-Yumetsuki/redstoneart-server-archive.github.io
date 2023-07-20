@@ -16,12 +16,11 @@
 }
 .about-us ul li {
     display: inline-block;
-    margin: 20px;
-    margin-top: -10px;
 }
 .about-us ul li[pos="left"] {
-    width: 30%;
+    width: auto;
     text-align: right;
+    float: left;
 }
 .about-us ul li img {
     height: 300px;
@@ -29,10 +28,13 @@
 .about-us ul li[pos="right"] {
     width: 55%;
     text-align: left;
+    height: auto;
+}
+.about-us div{
+    height: auto;
 }
 .about-us ul li div {
     font-size: 20px;
-    transform: translate(0%,30%);
 }
 @media (max-width: 800px) {
     .about-us ul {
@@ -54,6 +56,7 @@
         text-align: center;
         width: 100%;
         margin: -20px;
+        height: auto;
     }
     #more {
         top: -150px;
