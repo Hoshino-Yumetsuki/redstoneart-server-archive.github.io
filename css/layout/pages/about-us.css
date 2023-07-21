@@ -1,5 +1,11 @@
 .about-us {
     background-color: rgb(36,41,46);
+    display: flex !important
+}
+
+.about-us-content {
+    display: flex !important;
+    align-items: center
 }
 
 .about-us h2 {
@@ -10,51 +16,49 @@
     font-family: 'FangSong'
 }
 
-.about-us ul {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.about-us ul li {
-    display: inline-block;
-}
-.about-us ul li[pos="left"] {
+.about-us-content [pos="left"] {
     width: auto;
     text-align: right;
-    float: left;
     margin-top: -15px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin: 20px;
 }
 
-.about-us ul li img {
+.about-us div img {
     height: 300px;
 }
-.about-us ul li[pos="right"] {
+.about-us-content [pos="right"] {
     width: 55%;
     text-align: left;
     height: auto;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important
 }
 .about-us div{
     height: auto;
 }
-.about-us ul li div {
+.about-us div div {
     font-size: 20px;
 }
 @media (max-width: 800px) {
-    .about-us ul {
+    .about-us {
         padding-bottom: 70px;
     }
-    .about-us ul li {
-        display: block;
+    .about-us div {
         margin: 0px;
     }
-    .about-us ul li[pos="left"] {
+    .about-us div[pos="left"] {
         text-align: center;
         width: 100%;
     }
-    .about-us ul li img {
+    .about-us div img {
         height: 200px;
         padding-right: 20px;
     }
-    .about-us ul li[pos="right"] {
+    .about-us div[pos="right"] {
         text-align: center;
         width: 100%;
         height: auto;
