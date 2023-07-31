@@ -5,7 +5,8 @@
 
 .about-us-content {
     display: flex !important;
-    align-items: center
+    align-items: center;
+    justify-content: center;
 }
 
 .about-us h2 {
