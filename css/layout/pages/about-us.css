@@ -7,6 +7,7 @@
     display: flex !important;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .about-us h2 {
@@ -53,11 +54,10 @@
     }
     .about-us div[pos="left"] {
         text-align: center;
-        width: 100%;
+        justify-content: center !important;
     }
     .about-us div img {
         height: 300px;
-        padding-right: 20px;
     }
     .about-us div[pos="right"] {
         text-align: center;
