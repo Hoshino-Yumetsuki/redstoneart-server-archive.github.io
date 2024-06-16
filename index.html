@@ -2,27 +2,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"
-        content="Python, C++, Windows, Linux, PyQt, html, css, 博客, blog, 代码, 原神, MC, Minecraft, 我的世界, 服务器, 生电, 建筑, RA, RedstoneArt Server, Bilibili, 哔哩哔哩">
+    <meta name="keywords" content="Python, C++, Windows, Linux, PyQt, html, css, 博客, blog, 代码, 原神, MC, Minecraft, 我的世界, 服务器, 生电, 建筑, RA, RedstoneArt Server, Bilibili, 哔哩哔哩">
     <link rel="icon" href="https://img-r2.anjiurine.top/redstoneart-server/icon.webp">
-    <script src="https://registry.npmmirror.com/bootstrap/latest/files/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://registry.npmmirror.com/bootstrap/latest/files/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://registry.npmmirror.com/jquery/latest/files/dist/jquery.min.js"></script>
-    <script src="https://registry.npmmirror.com/vue/latest/files/dist/vue.global.js"></script>
-    <script
-        src="https://registry.npmmirror.com/bootstrap-autohidingnavbar/latest/files/dist/jquery.bootstrap-autohidingnavbar.min.js"></script>
-    <script src="https://registry.npmmirror.com/typed.js/latest/files/"></script>
-    <script type="text/javascript"
-        src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
-    <script type="text/javascript"
-        src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.plugins.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vuetify@3.6.7/dist/vuetify.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/vuetify@3.6.7/dist/vuetify.min.css" rel="stylesheet">
-    <script src="https://registry.npmmirror.com/imagesloaded/latest/files/imagesloaded.pkgd.min.js"></script>
-    <script src="https://registry.npmmirror.com/masonry-layout/latest/files/dist/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.cbd.int/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.cbd.int/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.cbd.int/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.cbd.int/vue/dist/vue.global.js"></script>
+    <script src="https://cdn.cbd.int/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"></script>
+    <script src="https://cdn.cbd.int/typed.js/dist/typed.umd.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.plugins.min.js"></script>
+    <script src="https://cdn.cbd.int/vuetify@3.6.7/dist/vuetify.min.js"></script>
+    <link href="https://cdn.cbd.int/vuetify@3.6.7/dist/vuetify.min.css" rel="stylesheet">
+    <script src="https://cdn.cbd.int/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdn.cbd.int/masonry-layout/dist/masonry.pkgd.min.js"></script>
     <link href="/css/main.css" rel="stylesheet">
     <script>
-        $(function ($) {
+        $(function($) {
             $("img.lazy").Lazy();
         });
     </script>
@@ -30,10 +26,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top navbar-fixed-top" id="mainNav"
-        data-bs-theme="dark">
-        <img decoding="async" src="https://img-r2.anjiurine.top/redstoneart-server/icon.webp" alt="Logo"
-            style="margin-left: 50px; width: 35px;">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top navbar-fixed-top" id="mainNav" data-bs-theme="dark">
+        <img decoding="async" src="https://img-r2.anjiurine.top/redstoneart-server/icon.webp" alt="Logo" style="margin-left: 50px; width: 35px;">
         <a class="navbar-brand ms-2 hvr-grow-shadow ra-title" href="/">RedstoneArt Server</a>
         <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -66,12 +60,10 @@
         <div class="ra-figure-container" id="ra-figure">
             <div class="ra-figure">
                 <div class="carousel-button">
-                    <button class="carousel-control-prev carousel-control-button hvr-grow-shadow" type="button"
-                        data-bs-target=".swiper" data-bs-slide="prev">
+                    <button class="carousel-control-prev carousel-control-button hvr-grow-shadow" type="button" data-bs-target=".swiper" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </button>
-                    <button class="carousel-control-next carousel-control-button hvr-grow-shadow" type="button"
-                        data-bs-target=".swiper" data-bs-slide="next">
+                    <button class="carousel-control-next carousel-control-button hvr-grow-shadow" type="button" data-bs-target=".swiper" data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </button>
                 </div>
@@ -132,7 +124,8 @@
             <p type="time" id="time"></p>
             <script>
                 function runTime() {
-                    var d = new Date(), str = '';
+                    var d = new Date(),
+                        str = '';
                     BirthDay = new Date("October 25,2021");
                     today = new Date();
                     timeold = (today.getTime() - BirthDay.getTime());
@@ -151,7 +144,9 @@
                     str += d.getSeconds() + '秒';
                     return str;
                 }
-                setInterval(function () { $('#time').html(runTime()) }, 1000);
+                setInterval(function() {
+                    $('#time').html(runTime())
+                }, 1000);
             </script>
         </div>
     </div>
@@ -168,84 +163,64 @@
                 <p>物理服主</p>
             </div>
             -->
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/jin95i.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/jin95i.webp">
                 <h3>jin95i</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/daidaimao.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/daidaimao.webp">
                 <h3>daidaimao</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/A_lovely_QIYE.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/A_lovely_QIYE.webp">
                 <h3>A_lovely_QIYE</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/DavisGHW.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/DavisGHW.webp">
                 <h3>DavisGHW</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Demolition_32K.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Demolition_32K.webp">
                 <h3>Demolition_32K</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/FILLYLIN_light.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/FILLYLIN_light.webp">
                 <h3>FILLYLIN_light</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/flowerpulins0801.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/flowerpulins0801.webp">
                 <h3>flowerpulins0801</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/liamyang0705.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/liamyang0705.webp">
                 <h3>liamyang0705</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Mao_Nai.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Mao_Nai.webp">
                 <h3>Mao_Nai</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/PVG_with_you.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/PVG_with_you.webp">
                 <h3>PVG_with_you</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Q78KG.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Q78KG.webp">
                 <h3>Q78KG</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Redstone_player.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Redstone_player.webp">
                 <h3>Redstone_player</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Sine_Chen.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Sine_Chen.webp">
                 <h3>Sine_Chen</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/kevin_hh123.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/kevin_hh123.webp">
                 <h3>kevin_hh123</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/XL7743.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/XL7743.webp">
                 <h3>XL7743</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Redstone__Brain.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/Redstone__Brain.webp">
                 <h3>Redstone_Brain</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/bikitas.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/bikitas.webp">
                 <h3>bikitas</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/yingluochuqing.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/yingluochuqing.webp">
                 <h3>yingluochuqing</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/NieRSoul.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/NieRSoul.webp">
                 <h3>NieRSoul</h3>
             </div>
-            <div><img class="hvr-grow-shadow"
-                    src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/chilam2010.webp">
+            <div><img class="hvr-grow-shadow" src="https://img-r2.anjiurine.top/redstoneart-server/core-members-face/chilam2010.webp">
                 <h3>chilam2010</h3>
             </div>
         </div>
@@ -259,8 +234,7 @@
                         <h2>加入我们</h2>
                         <p class="button-subtitle">我们致力于让每位成员感受家的温暖</p>
                     </div>
-                    <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dxmzk0FL9hgPy8KfmGAYOu_IXEJvcwsr&authKey=cOM1TiENeHWSRE1jpyuO1WjLm0o%2BPwGX%2B97CoTsRQpr619AMRGo8nRYa55cD19NZ&noverify=0&group_code=917266941"
-                        role="button" class="join-us-button">加入我们（交流群）</a>
+                    <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dxmzk0FL9hgPy8KfmGAYOu_IXEJvcwsr&authKey=cOM1TiENeHWSRE1jpyuO1WjLm0o%2BPwGX%2B97CoTsRQpr619AMRGo8nRYa55cD19NZ&noverify=0&group_code=917266941" role="button" class="join-us-button">加入我们（交流群）</a>
                 </div>
             </div>
         </div>
